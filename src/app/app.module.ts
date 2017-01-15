@@ -20,6 +20,8 @@ import {RoomComponent} from "./room/room.component";
 import {ItemRoomComponent} from "./room/item-room/item-room.component";
 import {CalendarComponent} from "./calendar/calendar.component";
 import {ItemCalendarComponent} from "./calendar/item-calendar/item-calendar.component";
+import {HomeContentComponent} from "./home-content/home-content.component";
+import {HomePostComponent} from "./home/home-post/home-post.component";
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import {ItemCalendarComponent} from "./calendar/item-calendar/item-calendar.comp
     RoomComponent,
     ItemRoomComponent,
     CalendarComponent,
-    ItemCalendarComponent
+    ItemCalendarComponent,
+    HomeContentComponent,
+    HomePostComponent
   ],
   imports: [
     BrowserModule,

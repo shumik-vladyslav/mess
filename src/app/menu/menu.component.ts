@@ -9,9 +9,9 @@ export class MenuComponent {
   constructor(private _elRef: ElementRef){};
 
   ngOnInit(){
-    $( function() {
-      var myHeigth = $( ".room" ).height();
-      $(".leftMenu").css("height",myHeigth + 55 + 'px')
-    } );
+      setTimeout(function () {
+        var myHeigth = $( "html" ).height();
+        $(".leftMenu").css("height",myHeigth);
+      },1000)
   }
 }
