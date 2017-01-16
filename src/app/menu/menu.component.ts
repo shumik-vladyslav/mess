@@ -8,10 +8,5 @@ declare var $: any;
 export class MenuComponent {
   constructor(private _elRef: ElementRef){};
 
-  ngOnInit(){
-      setTimeout(function () {
-        var myHeigth = $( "html" ).height();
-        $(".leftMenu").css("height",myHeigth);
-      },1000)
-  }
+
 }

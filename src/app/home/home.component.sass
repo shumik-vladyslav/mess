@@ -8,3 +8,44 @@ input
 .content-header
   span
     font-weight: bolder
+  i
+    padding-left: 20px
+    padding-right: 20px
+    font-weight: bold
+    font-size: 18px
+    vertical-align: middle
+
+.dropmenu1,
+.dropmenu2
+  cursor: pointer
+  ul
+    margin: 0
+    padding: 10px
+    list-style: none
+    -webkit-box-shadow: 13px 9px 11px -6px rgba(228,228,228,0.71)
+    -moz-box-shadow: 13px 9px 11px -6px rgba(228,228,228,0.71)
+    box-shadow: 13px 9px 11px -6px rgba(228,228,228,0.71)
+    border: 1px solid #E4E4E4
+    li
+      padding-bottom: 10px
+      &:hover
+        font-weight: bolder
+.dropclick1,
+.dropclick2
+  display: none
+  position: absolute
+  z-index: 10
+  background-color: white
+  width: 150px
+.active
+  display: block!important
+.rotate
+  transform: rotate(180deg)
+@media only screen and (max-width: 1301px)
+  .content-header
+    div
+      padding-right: 5px
+      padding-left: 5px
+    i
+      padding-right: 5px
+      padding-left: 5px

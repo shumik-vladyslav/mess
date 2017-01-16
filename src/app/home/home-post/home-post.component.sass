@@ -4,20 +4,20 @@
   padding: 0
 .photo-post
   -webkit-filter: grayscale(100%)
-  border-right: 1px solid #E5E5E5
   height: 40px
-  width: 4.4%
   padding: 0
+  background-color: #FAFAFA
   img
     height: 40px
     width: 40px
 .text-post
-  width: 95.6%
   background-color: #FAFAFA
   height: 40px
   padding-top: 10px
   i
     padding-right: 3px
+  span
+    font-size: 13px
 .msg
   p
     padding-top: 15px
@@ -55,4 +55,9 @@
   p
     padding-left: 63px
     padding-top: 20px
+
+@media only screen and (min-width: 1400px)
+  .text-post
+    span
+      font-size: 14px
 

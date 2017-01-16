@@ -1,0 +1,121 @@
+.wrapper
+  padding: 20px 35px
+.picture-area
+  text-align: center
+  height: 390px
+  background-color: #E4E4E4
+  padding-top: 160px
+  a
+    color: #3497FF
+  i
+    color: #AEAEAE
+.add-block
+  background-color: #F2F2F2
+  padding: 10px
+  font-size: 12px
+  .text-input
+    input
+      background-color: #FAFAFA
+      padding: 10px 5px
+      border: none
+      outline: none
+      width: 100%
+      &::-webkit-input-placeholder
+        color: #3497FF
+      &:-moz-placeholder
+        color: #3497FF
+      &:-ms-input-placeholder
+        color: #3497FF
+  i
+    padding-right: 5px
+    color: black
+  a
+    color: #3497FF
+  button
+    padding: 10px 5px
+    background-color: #b7b7b7
+    color: white
+    outline: none
+    i
+      color: white
+.photo-post
+  background: url('https://pickaface.net/assets/images/slides/slide2.png')
+  width: 30px
+  height: 29px
+  display: inline-block
+  background-size: cover
+  border-radius: 50%
+  border: 2px solid #C0C0BF
+  -webkit-filter: grayscale(100%)
+
+.atn
+  font-weight: bolder
+.under-post
+  margin-top: 30px
+  padding: 0
+  .under-bold
+    font-weight: bolder
+    font-size: 18px
+  .info
+    input
+      border: 1px solid #F2F2F2
+      outline: none
+      padding: 10px 10px 150px 10px
+      width: 100%
+      &::-webkit-input-placeholder
+        color: #3497FF
+      &:-moz-placeholder
+        color: #3497FF
+      &:-ms-input-placeholder
+        color: #3497FF
+    .tags
+      margin-top: 30px
+      input
+        padding: 5px 10px!important
+        &::-webkit-input-placeholder
+          color: #A7A5A6
+        &:-moz-placeholder
+          color: #A7A5A6
+        &:-ms-input-placeholder
+          color: #A7A5A6
+
+label
+  font-weight: normal!important
+.radio
+  vertical-align: top
+  width: 17px
+  height: 17px
+  margin: 0 3px 0 0
+  + label
+    cursor: pointer
+  &:not(checked)
+    position: absolute
+    opacity: 0
+    + label
+      position: relative
+      padding: 5px 0 0 20px
+      &:before
+        content: ''
+        position: absolute
+        top: 7px
+        left: -1px
+        width: 15px
+        height: 15px
+        border: 1px solid #CDD1DA
+        border-radius: 50%
+        background: #FFF
+      &:after
+        content: ''
+        position: absolute
+        width: 15px
+        height: 15px
+        border-radius: 50%
+        background: white
+        transition: all .2s
+  &:checked + label:after
+    opacity: 1
+  &:focus + label:before
+    background-color: white
+    border: 5px solid #3497FF
+
+
